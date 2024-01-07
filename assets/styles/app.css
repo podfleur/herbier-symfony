@@ -1,3 +1,12 @@
-body {
-    background-color: skyblue;
+.herbe {
+    background-color: rgb(29, 90, 29);
+}
+
+.petitTableau td {
+    width: 13px;
+    height: 13px;
+}
+
+.visualisation td {
+    padding: 0;
 }

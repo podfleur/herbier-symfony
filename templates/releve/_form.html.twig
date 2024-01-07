@@ -1,0 +1,5 @@
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <a href="{{ path('app_lieu_index') }}">Administrer les lieux</a>
+    <button class="btn btn-info">{{ button_label|default('OK') }}</button>
+{{ form_end(form) }}
