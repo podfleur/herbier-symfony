@@ -22,7 +22,7 @@
             </tr>
         </thead>
         <tbody>
-        {% for lieu in lieus %}
+        {% for lieu in lieux %}
             <tr>
                 <td>{{ lieu.nom }}</td>
                 <td><a class="btn btn-outline-info" href="{{ path('app_lieu_edit', {'id': lieu.id}) }}">Modifier</a></td>

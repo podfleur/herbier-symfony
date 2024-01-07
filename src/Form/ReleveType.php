@@ -18,7 +18,7 @@ class ReleveType extends AbstractType
             ->add('releve_brut')
             ->add('lieu', EntityType::class, [
                 'class' => Lieu::class,
-'choice_label' => 'id',
+'choice_label' => 'nom',
             ])
         ;
     }
